@@ -1,0 +1,83 @@
+/* général */
+
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #ededed;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+li {
+    margin-bottom: 10px;
+    background-color: #ededed;
+    padding: 4px 20px 4px 20px;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+}
+
+button:focus {
+    outline: 0;
+}
+
+/* éléments */
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(90deg, #fc466B, #3f5efb);
+    color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.navbar a {
+    font-size: 1.5em;
+    font-weight: 300;
+    display: block;
+    padding-left: 30px;
+    padding-top: 8px;
+}
+
+.card {
+    background: #fff;
+    display: block;
+    height: auto;
+    margin-top: 15px;
+    padding: 30px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.generer {
+    border: none;
+    padding: 6px 20px 6px 20px;
+    margin-top: 15px;
+    border-radius: 70px;
+    background: linear-gradient(90deg, #fc466B, #3f5efb);
+    font-size: 1.3em;
+    font-weight: 300;
+    color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.generer:hover {
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.12), 0 3px 4px rgba(0, 0, 0, 0.24);
+}
+
+.generer:active {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transform: translateY(1px);
+}
+
+.bandeau {
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: 5px;
+}

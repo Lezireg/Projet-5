@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- BULMA cdn-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- FontAwesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+    <title>Générateur de citations</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a class="titre" href="#"><i class="far fa-comment"></i>&nbsp;&nbsp;Générateur de citations</a>
+    </nav>
+    <div class="container">
+        <div class="card">
+            <div class="columns">
+                <div class="column is-one-third">
+                    <form>
+                        <div class="field">
+                            <label class="label" for="jeuxDeCitation">Type de citation :</label>
+                            <div class="select">
+                                <select name="jeu" id="jeu">
+                                    <option value="1" selected>Citations d'Elon Musk</option>
+                                    <option value="2">Citations d'Albert Einstein</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label" for="choixNbr">Nombre de citations :</label>
+                            <div class="select">
+                                <select name="nbr" id="nbr">
+                                    <option value="1" selected>1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <button type="button" class="generer" id="bouton">
+                                <i class="fas fa-plus-circle"></i> Génerer</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="column">
+                    <h3 class="subtitle">Résultat :</h3>
+                    <ul id="resultat">
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="subtitle bandeau">
+            <p>Maxime Nedelec - &#9400;2018 - Application réalisée dans le cadre de la formation Developpeur d'applications Frontend d'Openclassrooms</p>
+        </div>
+    </div>
+    <!-- JavaScript -->
+    <script src="generateurDOM.js"></script>
+</body>
+
+</html>
